@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*barra de navegación*/
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.681);
+    z-index: 100;
+}
+
+.menu-item:hover{
+    background-color: #bda488;
+}
+
+.img-logo{
+    width: 6.75rem;
+}
+
+.img-user{
+    width: 1.35rem;
+}
+
+.carrito{
+    width: 1.35rem;
+    margin-left: .9375rem;
+}
+
+
+/*seccion datos de las compras*/
+.img-datos-compras{
+    width: 56.25rem;
+}
+
+
+/*formulario de contacto*/
+.alert-notif {
+    background-color: #bda488;
+    color: #000;
+    border-color: #ffffff;
+}
+
+.section-form{
+    background-image: url(../assets/img/fondo-formulario.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.contact-form{  
+    width: 28.75rem; 
+    height: auto;
+    margin: auto;
+    border-radius: .625rem;  
+    padding-top: 1.875rem;
+    padding-bottom: 1.25rem;  
+    background-color: #fbfbfb; 
+    padding-left: 1.875rem; 
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 25.5rem; 
+    height: 2.5rem; 
+    border-radius: .3125rem;  
+    border-style: solid; 
+    border-width: .0625rem; 
+    border-color: #bda488; 
+    margin-top: .625rem;  
+    padding-left: .625rem;
+    margin-bottom: 1.25rem; 
+}
+
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 25.3125rem; 
+    height: 9.375rem; 
+    border-radius: .3125rem;  
+    border-style: solid; 
+    border-width: .0625rem; 
+    border-color: #bda488; 
+    margin-top: .625rem;  
+    padding-left: .625rem;
+    margin-bottom: 1.25rem; 
+    padding-top: .9375rem; 
+}
+
+
+label{
+    display: block; 
+    float: center;  
+}
+
+
+button{
+    height: 2.8125rem; 
+    padding-left: .3125rem;
+    padding-right: .3125rem;   
+    margin-bottom: 1.25rem; 
+    margin-top: .625rem;   
+    text-transform: uppercase;
+    background-color: #bda488; 
+    border-color: #bda488; 
+    border-style: solid; 
+    border-radius: .625rem;  
+    width: 26.25rem;   
+    cursor: pointer;
+}
+
+button p{
+    color: #fff; 
+}
+
+span{
+    color: #bda488; 
+}
+
+.aviso{
+    font-size: .8125rem;  
+    color: #0e0e0e;  
+}
+
+h1{
+    font-size: 1.5625rem;  
+    text-align: center; 
+    padding-bottom: .9375rem; 
+    color: #bda488;
+}
+
+h3{
+    font-size: 1rem; 
+    padding-bottom: .9375rem;
+    color: #0e0e0e;   
+}
+
+p{
+    font-size: .875rem; 
+    color: #0e0e0e; 
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus{
+    outline:0;
+    border: .0625rem solid #eec43b;
+}
+
+.formulario textarea:focus{
+    outline:0;
+    border: .0625rem solid #eec43b;
+}
+
+/*pages*/
+.sec-productos{
+    background-image: url(../assets/img/portada-productos.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 34.375rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.custom-text-shadow {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.carrito-mas{
+    width: 1.25rem;
+}
+
+/*boton agregar a carrito*/
+.agregar-carrito {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .3125rem;
+}
+
+/*carrito de compras*/
+.table td {
+    vertical-align: middle;
+}
+
+.btn-eliminar {
+    width: 1.875rem;
+    margin: .625rem 0rem;
+    padding: .1875rem .375rem;
+    border-color: #cca374;
+}
+
+.btn-eliminar img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*footer*/
+.container-footer{
+    background: linear-gradient(-45deg, #ffffff, #fff0de, #cca374);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+}
+
+.container-footer footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: .625rem 1.875rem .625rem 1.875rem;
+    text-align: center;
+}
+
+.container-footer footer p{
+    color: black;
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+}
+
+.container-footer footer div{
+    list-style: none;
+    list-style-type: none;
+}
+
+.container-footer footer div img{
+    width: 1.875rem;
+}
+
+@-webkit-keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
