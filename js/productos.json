@@ -1,0 +1,226 @@
+[
+    {
+        "codigo": 100,
+        "categoria": "Floreros",
+        "nombre": "FANAL PAGODA",
+        "precio": 21000,
+        "imagen": "../assets/img/fanal-pagoda.jpeg"
+    },
+    {
+        "codigo": 131,
+        "categoria": "Plantas artificiales",
+        "nombre": "RAMA KALA",
+        "precio": 10750,
+        "imagen": "../assets/img/rama-kala.jpeg"
+    },
+    {
+        "codigo": 132,
+        "categoria": "Plantas artificiales",
+        "nombre": "RAMA FLECOS",
+        "precio": 24960,
+        "imagen": "../assets/img/rama-flecos.jpg"
+    },
+    {
+        "codigo": 101,
+        "categoria": "Floreros",
+        "nombre": "VASIJA CHATO",
+        "precio": 13000,
+        "imagen": "../assets/img/vasija-globo-chato.jpeg"
+    },
+    {
+        "codigo": 102,
+        "categoria": "Floreros",
+        "nombre": "FLORERO ARCO",
+        "precio": 24300,
+        "imagen": "../assets/img/florero-arco.jpeg"
+    },
+    {
+        "codigo": 103,
+        "categoria": "Floreros",
+        "nombre": "FLORERO GRIS",
+        "precio": 23100,
+        "imagen": "../assets/img/florero-gris.jpeg"
+    },
+    {
+        "codigo": 140,
+        "categoria": "Velas",
+        "nombre": "VELA TERRA",
+        "precio": 13800,
+        "imagen": "../assets/img/velas-terra.jpeg"
+    },
+    {
+        "codigo": 104,
+        "categoria": "Floreros",
+        "nombre": "FLORERO PATAS",
+        "precio": 15000,
+        "imagen": "../assets/img/florero-patas.jpeg"
+    },
+    {
+        "codigo": 105,
+        "categoria": "Floreros",
+        "nombre": "FLORERO OLI",
+        "precio": 18000,
+        "imagen": "../assets/img/florero-redondo.jpeg"
+    },
+    {
+        "codigo": 106,
+        "categoria": "Floreros",
+        "nombre": "FLORERO VASIJA",
+        "precio": 51400,
+        "imagen": "../assets/img/florero-vasija.jpeg"
+    },
+    {
+        "codigo": 107,
+        "categoria": "Floreros",
+        "nombre": "FLORERO GLOBO",
+        "precio": 15000,
+        "imagen": "../assets/img/vasija-globo.jpeg"
+    },
+    {
+        "codigo": 109,
+        "categoria": "Floreros",
+        "nombre": "FLORERITO ALAS",
+        "precio": 8400,
+        "imagen": "../assets/img/florerito-alas.jpeg"
+    },
+    {
+        "codigo": 141,
+        "categoria": "Velas",
+        "nombre": "VELA SILUETA",
+        "precio": 6800,
+        "imagen": "../assets/img/vela-silueta.jpg"
+    },
+    {
+        "codigo": 136,
+        "categoria": "Plantas artificiales",
+        "nombre": "VARA SILVESTRE",
+        "precio": 8290,
+        "imagen": "../assets/img/vara-silvestre.jpeg"
+    },
+    {
+        "codigo": 137,
+        "categoria": "Plantas artificiales",
+        "nombre": "EUCALIPTO ROSE",
+        "precio": 7440,
+        "imagen": "../assets/img/eucalipto-rose.jpeg"
+    },
+    {
+        "codigo": 108,
+        "categoria": "Floreros",
+        "nombre": "CUENCO NUORO",
+        "precio": 73990,
+        "imagen": "../assets/img/cuenco-nuoro.jpeg"
+    },
+    {
+        "codigo": 142,
+        "categoria": "Velas",
+        "nombre": "VELA BUBBLE",
+        "precio": 7725,
+        "imagen": "../assets/img/vela-bubble.jpg"
+    },
+    {
+        "codigo": 143,
+        "categoria": "Velas",
+        "nombre": "VELA TRENZADA",
+        "precio": 7725,
+        "imagen": "../assets/img/vela-trenzada.jpg"
+    },
+    {
+        "codigo": 120,
+        "categoria": "Candelabros",
+        "nombre": "CANDELABRO COOL",
+        "precio": 10755,
+        "imagen": "../assets/img/candelabro-cool.jpg"
+    },
+    {
+        "codigo": 121,
+        "categoria": "Candelabros",
+        "nombre": "CANDELABRO LUSTRE",
+        "precio": 7950,
+        "imagen": "../assets/img/candelabro-madera-lustre.jpg"
+    },
+    {
+        "codigo": 122,
+        "categoria": "Candelabros",
+        "nombre": "CANDELABRO DE MADERA",
+        "precio": 20100,
+        "imagen": "../assets/img/candelabros-madera.jpeg"
+    },
+    {
+        "codigo": 123,
+        "categoria": "Candelabros",
+        "nombre": "CANDELABRO VINTAGE",
+        "precio": 24150,
+        "imagen": "../assets/img/candelabro-vintage.jpg"
+    },
+    {
+        "codigo": 133,
+        "categoria": "Plantas artificiales",
+        "nombre": "RAMA HOJAS VERDES",
+        "precio": 4560,
+        "imagen": "../assets/img/hojas-verdes.jpeg"
+    },
+    {
+        "codigo": 134,
+        "categoria": "Plantas artificiales",
+        "nombre": "HELECHO CON PIÑA",
+        "precio": 6550,
+        "imagen": "../assets/img/helecho-pina.jpeg"
+    },
+    {
+        "codigo": 135,
+        "categoria": "Plantas artificiales",
+        "nombre": "VARA EUCA BLANCA",
+        "precio": 5640,
+        "imagen": "../assets/img/euca-blanca.jpeg"
+    },
+    {
+        "codigo": 125,
+        "categoria": "Candelabros",
+        "nombre": "CANDELABRO PETO",
+        "precio": 12000,
+        "imagen": "../assets/img/candelabro-regordete.jpeg"
+    },
+    {
+        "codigo": 110,
+        "categoria": "Floreros",
+        "nombre": "FLORERO FLORECITAS",
+        "precio": 36000,
+        "imagen": "../assets/img/florero-florecitas.jpg"
+    },
+    {
+        "codigo": 138,
+        "categoria": "Plantas artificiales",
+        "nombre": "SILVER DOLAR BLANCAS",
+        "precio": 5100,
+        "imagen": "../assets/img/silver-dolar-blancas.jpeg"
+    },
+    {
+        "codigo": 124,
+        "categoria": "Candelabros",
+        "nombre": "CANDELABRO MINI",
+        "precio": 8600,
+        "imagen": "../assets/img/candelabros-mini.jpeg"
+    },
+    {
+        "codigo": 144,
+        "categoria": "Velas",
+        "nombre": "VELA ARCOIRIS GRANDE",
+        "precio": 5650,
+        "imagen": "../assets/img/vela-arcoiris.jpg"
+    },
+    {
+        "codigo": 130,
+        "categoria": "Plantas artificiales",
+        "nombre": "EUCALIPTO JUNKO",
+        "precio": 4020,
+        "imagen": "../assets/img/eucalipto-junko.jpeg"
+    },
+    {
+        "codigo": 145,
+        "categoria": "Velas",
+        "nombre": "VELAS AROMÁTICAS",
+        "precio": 6800,
+        "imagen": "../assets/img/velas-aromaticas.jpg"
+    }
+]

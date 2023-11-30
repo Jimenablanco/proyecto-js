@@ -1,3 +1,5 @@
+const productos = [];
+const url = "/js/productos.json";
 const campoBusqueda = document.querySelector('input#buscar');
 const contenedorResultados = document.querySelector('#resultadosBusqueda div#card-productos');
 const seccionesOcultas = document.querySelectorAll('main > section');
@@ -31,7 +33,18 @@ function cardProductosEnContenedor(array, contenedor) {
 function cardProductos(array) {
     cardProductosEnContenedor(array, productosContainer);
 }
-cardProductos(productos);
+
+
+async function cargarProductos() {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    productos.push(...data);
+    cardProductos(productos);
+}
+
+cargarProductos()
+
 
 function buscarProductos(palabraClave) {
     palabraClave = palabraClave.toLowerCase().trim();

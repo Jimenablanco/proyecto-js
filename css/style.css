@@ -209,6 +209,16 @@ p{
     max-height: 100%;
 }
 
+#mensaje-carrito-vacio {
+    display: none;
+    text-align: center;
+}
+
+#btnFinalizarCompra {
+    margin-left: auto;
+    margin-right: 6.25rem;
+    display: block;
+}
 
 /*footer*/
 .container-footer{
