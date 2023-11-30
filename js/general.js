@@ -1,5 +1,5 @@
 const productos = [];
-const url = "/js/productos.json";
+const url = "./js/productos.json";
 const campoBusqueda = document.querySelector('input#buscar');
 const contenedorResultados = document.querySelector('#resultadosBusqueda div#card-productos');
 const seccionesOcultas = document.querySelectorAll('main > section');
